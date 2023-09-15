@@ -133,51 +133,35 @@
             transition: opacity 2s ease-in-out;
         }
 
+        .img-center {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            left: 45%;
+            opacity: 1;
+            z-index: 5;
+            transform: translate(-50%, -50%) scale(1.1);
+            animation: scaleUp 2s;
+        }
+
         .img-right {
             position: absolute;
             right: 0;
             bottom: 0;
             width: 60%;
-            opacity: 0;
-            animation: fadeInRight 2s infinite;
+            opacity: 1;
+            transform: translate(.5rem, .5rem);
+            animation: fadeInRight 2s;
         }
 
         .img-left {
             position: absolute;
             width: 60%;
-            opacity: 0;
-            animation: fadeInLeft 2s infinite;
+            opacity: 1;
+            transform: translate(-.5rem, -.5rem);
+            animation: fadeInLeft 2s;
         }
 
-        .img-center {
-            position: absolute;
-            width: 35%;
-            top: 50%;
-            left: 50%;
-            z-index: 5;
-            transform: translate(-50%, -50%) scale(0);
-            animation: scaleUp 2s infinite;
-        }
-
-        .img-center-flower {
-            position: absolute;
-            width: 80%;
-            top: 50%;
-            left: 50%;
-            z-index: 5;
-            transform: translate(-50%, -50%);
-            animation: rotate 2s linear infinite;
-        }
-
-        .img-center-flower-out {
-            position: absolute;
-            width: 80%;
-            top: 50%;
-            left: 50%;
-            z-index: 4;
-            transform: translate(-50%, -50%);
-            animation: rotateOut 2s linear infinite;
-        }
 
         .title-1 {
             font-weight: bold;
@@ -187,9 +171,10 @@
             left: 50%;
             text-align: center;
             transform: translate(-50%, -50%);
-            animation: fadeTitle 2s infinite;
+            animation: fadeTitle 2s;
             white-space: nowrap;
         }
+
         .title-2 {
             font-weight: bold;
             position: absolute;
@@ -198,7 +183,7 @@
             left: 50%;
             text-align: center;
             transform: translate(-50%, -50%);
-            animation: fadeTitle 2s infinite;
+            animation: fadeTitle 2s;
             white-space: nowrap;
         }
 
@@ -214,46 +199,6 @@
             }
         }
 
-        @keyframes rotateOut {
-            0% {
-                opacity: 0;
-                transform: translate(-50%, -50%) rotate(60deg) scale(0.5);
-                /* Không xoay */
-            }
-
-            50% {
-                opacity: 1;
-                transform: translate(-50%, -50%) rotate(430deg) scale(1);
-                /* Không xoay */
-            }
-
-            100% {
-                opacity: 0;
-                transform: translate(-50%, -50%) rotate(430deg) scale(8);
-                /* Xoay 360 độ */
-            }
-        }
-
-        @keyframes rotate {
-            0% {
-                opacity: 0;
-                transform: translate(-50%, -50%) rotate(60deg) scale(0.5);
-                /* Không xoay */
-            }
-
-            50% {
-                opacity: 1;
-                transform: translate(-50%, -50%) rotate(430deg) scale(1);
-                /* Không xoay */
-            }
-
-            100% {
-                opacity: 1;
-                transform: translate(-50%, -50%) rotate(430deg) scale(1);
-                /* Xoay 360 độ */
-            }
-        }
-
         @keyframes scaleUp {
             0% {
                 opacity: 0;
@@ -262,12 +207,12 @@
 
             50% {
                 opacity: 1;
-                transform: translate(-50%, -50%) scale(1.2);
+                transform: translate(-50%, -50%) scale(1.3);
             }
 
             100% {
                 opacity: 1;
-                transform: translate(-50%, -50%) scale(1);
+                transform: translate(-50%, -50%) scale(1.1);
             }
         }
 
@@ -330,9 +275,7 @@
             alert_pls_name="Vui lòng nhập Tên!" send_text_alert_rsvp="Gửi lời nhắn hoặc lời chúc" btn_send_mb="Gửi đi">
             <div class="box-tsimple-online">
                 <div style="position: relative; overflow: hidden; width: 100%;height: 100vh;">
-                    <img src="assets/3.md_pink.png" alt="" class="img-center-flower-out">
-                    <img src="assets/3.md_pink.png" alt="" class="img-center-flower">
-                    <img class="img-center" src="assets/signature.png" alt="">
+                    <img class="img-center" src="assets/signature_pink.png.jpg" alt="">
                     <img class="img-right" src="assets/flower_right_pink_2.jpg" alt="">
                     <img class="img-left" src="assets/flower_left_pink.jpg" alt="">
                     <img src="assets/background_pink.jpg" alt="">
@@ -1071,7 +1014,10 @@
                 </div>
                 <div class="mt-60 px-15">
                     <h3 class="text-center alert alert-danger">Địa điểm: Lạc Hồng Palace</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.6437822250373!2d106.7071503!3d20.846086200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7abb997cac25%3A0xc61b3620d4c09002!2zVHJ1bmcgVMOibSBOaMOgIEjDoG5nIFRp4buHYyBDxrDhu5tpIEzhuqFjIEjhu5NuZw!5e0!3m2!1svi!2s!4v1694771904139!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.6437822250373!2d106.7071503!3d20.846086200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7abb997cac25%3A0xc61b3620d4c09002!2zVHJ1bmcgVMOibSBOaMOgIEjDoG5nIFRp4buHYyBDxrDhu5tpIEzhuqFjIEjhu5NuZw!5e0!3m2!1svi!2s!4v1694771904139!5m2!1svi!2s"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <img src="assets/thankyou_pink.jpg" alt="">
 
