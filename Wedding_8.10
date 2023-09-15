@@ -99,7 +99,7 @@
 
             .owl-carousel,
             .item {
-                height: 500px;
+                height: 600px;
             }
         }
     </style>
@@ -137,21 +137,21 @@
             position: absolute;
             right: 0;
             bottom: 0;
-            width: 80%;
+            width: 60%;
             opacity: 0;
             animation: fadeInRight 2s infinite;
         }
 
         .img-left {
             position: absolute;
-            width: 80%;
+            width: 60%;
             opacity: 0;
             animation: fadeInLeft 2s infinite;
         }
 
         .img-center {
             position: absolute;
-            width: 45%;
+            width: 40%;
             top: 50%;
             left: 50%;
             z-index: 5;
@@ -161,7 +161,7 @@
 
         .img-center-flower {
             position: absolute;
-            width: 85%;
+            width: 80%;
             top: 50%;
             left: 50%;
             z-index: 5;
@@ -171,7 +171,7 @@
 
         .img-center-flower-out {
             position: absolute;
-            width: 85%;
+            width: 80%;
             top: 50%;
             left: 50%;
             z-index: 4;
@@ -188,13 +188,13 @@
 
             50% {
                 opacity: 1;
-                transform: translate(-50%, -50%) rotate(420deg) scale(1);
+                transform: translate(-50%, -50%) rotate(430deg) scale(1);
                 /* Không xoay */
             }
 
             100% {
                 opacity: 0;
-                transform: translate(-50%, -50%) rotate(420deg) scale(8);
+                transform: translate(-50%, -50%) rotate(430deg) scale(8);
                 /* Xoay 360 độ */
             }
         }
@@ -208,13 +208,13 @@
 
             50% {
                 opacity: 1;
-                transform: translate(-50%, -50%) rotate(420deg) scale(1);
+                transform: translate(-50%, -50%) rotate(430deg) scale(1);
                 /* Không xoay */
             }
 
             100% {
                 opacity: 1;
-                transform: translate(-50%, -50%) rotate(420deg) scale(1);
+                transform: translate(-50%, -50%) rotate(430deg) scale(1);
                 /* Xoay 360 độ */
             }
         }
@@ -295,12 +295,12 @@
             alert_pls_name="Vui lòng nhập Tên!" send_text_alert_rsvp="Gửi lời nhắn hoặc lời chúc" btn_send_mb="Gửi đi">
             <div class="box-tsimple-online">
                 <div style="position: relative; overflow: hidden; width: 100%;height: 100vh;">
-                    <img src="https://img.upanh.tv/2023/09/14/3.md.png" alt="" class="img-center-flower-out">
-                    <img src="https://img.upanh.tv/2023/09/14/3.md.png" alt="" class="img-center-flower">
-                    <img class="img-center" src="https://img.upanh.tv/2023/09/14/output-onlinepngtools.png" alt="">
-                    <img class="img-right" src="https://img.upanh.tv/2023/09/14/flower_right.jpg" alt="">
-                    <img class="img-left" src="https://img.upanh.tv/2023/09/14/flower_left.jpg" alt="">
-                    <img src="https://img.upanh.tv/2023/09/14/photo_2023-09-13_23-40-05_0001_Layer-1.jpg" alt="">
+                    <img src="assets/3.md.png" alt="" class="img-center-flower-out">
+                    <img src="assets/3.md.png" alt="" class="img-center-flower">
+                    <img class="img-center" src="assets/signature.png" alt="">
+                    <img class="img-right" src="assets/flower_right.jpg" alt="">
+                    <img class="img-left" src="assets/flower_left.jpg" alt="">
+                    <img src="assets/background.jpg" alt="">
                 </div>
                 <div class="line2 mt-50 mb-50">
                     <div class="line-cap2">
@@ -513,7 +513,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="https://img.upanh.tv/2023/09/13/photo_2023-09-13_16-16-10.jpg" alt="">
+                    <img src="assets/1.jpg" alt="">
                     <div class="line2 mt-50 mb-50">
                         <div class="line-cap2">
                             <div class="text-center">
@@ -732,23 +732,23 @@
                     </div>
                     <div class="owl-carousel" style="padding-left: 2rem;padding-right: 2rem;">
                         <div class="item"
-                            style="background-image: url('https://img.upanh.tv/2023/09/13/SU1_0358.md.jpg')">
+                            style="background-image: url('assets/slide1.jpg')">
                         </div>
                         <div class="item"
-                            style="background-image: url('https://img.upanh.tv/2023/09/13/SU1_0432_2.md.jpg')">
+                            style="background-image: url('assets/slide2.jpg')">
                         </div>
                         <div class="item"
-                            style="background-image: url('https://img.upanh.tv/2023/09/13/SU1_0503.md.jpg')">
+                            style="background-image: url('assets/slide3.jpg')">
                         </div>
 
                         <div class="item"
-                            style="background-image: url('https://img.upanh.tv/2023/09/13/SU1_0532.md.jpg')">
+                            style="background-image: url('assets/slide4.jpg')">
                         </div>
                         <div class="item"
-                            style="background-image: url('https://img.upanh.tv/2023/09/13/SU1_0160.md.jpg')">
+                            style="background-image: url('assets/slide5.jpg')">
                         </div>
                         <div class="item"
-                            style="background-image: url('https://img.upanh.tv/2023/09/13/SU1_0215_2.md.jpg')">
+                            style="background-image: url('assets/slide6.jpg')">
                         </div>
                     </div>
 
@@ -761,8 +761,8 @@
                                 alt="right-squared" /></button>
                     </div>
                     <div class="name_invation mt-80">
-                        <input class="name_input" type="text">
-                        <img src="https://img.upanh.tv/2023/09/15/photo_2023-09-13_16-16-08.jpg" alt="">
+                        <!-- <input class="name_input" type="text"> -->
+                        <img src="assets/2.jpg" alt="">
                     </div>
                 </div>
                 <div class="count-time-date mt-50">
@@ -811,7 +811,7 @@
 
 
                 </div>
-                <img id="myImage" src="https://img.upanh.tv/2023/09/13/photo_2023-09-13_16-16-093cc7cbe812de1c46.jpg"
+                <img id="myImage" src="assets/save.jpg"
                     alt="Hình ảnh">
                 <div class="note-msg">
                     <div>
@@ -1046,7 +1046,7 @@
                         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <img src="https://img.upanh.tv/2023/09/13/photo_2023-09-13_16-16-07.jpg" alt="">
+                <img src="assets/thankyou.jpg" alt="">
 
                 <div class="clearfix"></div>
             </div>
