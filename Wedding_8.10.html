@@ -179,6 +179,40 @@
             animation: rotateOut 2s linear infinite;
         }
 
+        .title-1 {
+            font-weight: bold;
+            position: absolute;
+            letter-spacing: 3px;
+            top: 20%;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            animation: fadeTitle 2s infinite;
+            white-space: nowrap;
+        }
+
+        .title-2 {
+            font-weight: bold;
+            position: absolute;
+            letter-spacing: 3px;
+            bottom: 15%;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            animation: fadeTitle 2s infinite;
+            white-space: nowrap;
+        }
+        @keyframes fadeTitle {
+            0% {
+                opacity: 0;
+                transform: translate(-50%, -50%) scale(1.5);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translate(-50%, -50%) scale(1);
+            }
+        }
         @keyframes rotateOut {
             0% {
                 opacity: 0;
@@ -301,6 +335,8 @@
                     <img class="img-right" src="assets/flower_right.jpg" alt="">
                     <img class="img-left" src="assets/flower_left.jpg" alt="">
                     <img src="assets/background.jpg" alt="">
+                    <div class="title-1">WEDDING INVITATION<br><span class="fs-4">08.10.2023</span></div>
+                    <div class="title-2">FOREVER LOVE</div>
                 </div>
                 <div class="line2 mt-50 mb-50">
                     <div class="line-cap2">
@@ -731,24 +767,18 @@
                         </div>
                     </div>
                     <div class="owl-carousel" style="padding-left: 2rem;padding-right: 2rem;">
-                        <div class="item"
-                            style="background-image: url('assets/slide1.jpg')">
+                        <div class="item" style="background-image: url('assets/slide1.jpg')">
                         </div>
-                        <div class="item"
-                            style="background-image: url('assets/slide2.jpg')">
+                        <div class="item" style="background-image: url('assets/slide2.jpg')">
                         </div>
-                        <div class="item"
-                            style="background-image: url('assets/slide3.jpg')">
+                        <div class="item" style="background-image: url('assets/slide3.jpg')">
                         </div>
 
-                        <div class="item"
-                            style="background-image: url('assets/slide4.jpg')">
+                        <div class="item" style="background-image: url('assets/slide4.jpg')">
                         </div>
-                        <div class="item"
-                            style="background-image: url('assets/slide5.jpg')">
+                        <div class="item" style="background-image: url('assets/slide5.jpg')">
                         </div>
-                        <div class="item"
-                            style="background-image: url('assets/slide6.jpg')">
+                        <div class="item" style="background-image: url('assets/slide6.jpg')">
                         </div>
                     </div>
 
@@ -811,8 +841,7 @@
 
 
                 </div>
-                <img id="myImage" src="assets/save.jpg"
-                    alt="Hình ảnh">
+                <img id="myImage" src="assets/save.jpg" alt="Hình ảnh">
                 <div class="note-msg">
                     <div>
                         <h1>Đám cưới của chúng tôi chắc chắn sẽ kém vui đi rất nhiều nếu thiếu đi sự hiện diện của bạn.
